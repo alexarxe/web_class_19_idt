@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>19th Class</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <script src="./js/jquery-3.3.1.min.js" defer></script>
+    <script src="./js/bootstrap.min.js"defer></script>
+</head>
+<body>
+    <div class="container-fluid border border-1 border-primary">
+        <header class="row bg-primary">
+            <div class="col-12 text-light text-right p-2">
+                <h4 >
+                    Formulario de Productos
+                </h4>
+            </div>
+        </header>
+        <main class="container-fluid">
+            <div class="col-12 col-sm-12 p-2">
+                <form action="" class="flex-column">
+                    <div class="row">
+                        <div class="col-sm-4 text-right p-1">
+                            <label for="codigo">Codigo</label>
+                        </div>
+                        <div class="col-sm-6 text-left">
+                            <div class="row">
+                                <div class="col-sm-9">
+                                    <input type="text" name="" id="Codigo" placeholder="Codigo" class="form-control" >
+                                </div>
+                                <div class="col-2">
+                                    <button class="btn btn-primary">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-4  text-right p-1">
+                            <label for="nombre">Nombre</label>
+                        </div>
+                        <div class="col-sm-6 text-left">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <input type="text" name="" id="Nombre" placeholder="Nombre" class="form-control" >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-4  text-right p-1">
+                            <label for="precio">Precio</label>
+                        </div>
+                        <div class="col-sm-6  text-left">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <input type="text" name="" id="Precio" placeholder="Precio" class="form-control" >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-4  text-right p-1">
+                            <label for="Descripcion">Descripcion</label>
+                        </div>
+                        <div class="col-sm-6  text-left">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <textarea name="text" id="descripcion" class="form-control" cols="80" rows="5" placeholder="Descripcion"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-4 text-right p-1">
+                            <label for="Imagen">Imagen</label>
+                        </div>
+                        <div class="col-sm-6 text-left">
+                            <div class="row">
+                                <div class="col-sm-7 ">
+                                    <input type="file" name="" id="imagen" class="form-control bg-primary text-white" >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <div class="row footer bg-light text-right">
+            <div class="col-12">
+                <button class="btn btn-primary my-3">Agregar</button>
+                <button class="btn btn-primary my-3" disabled>Modificar</button>
+                <button class="btn btn-primary my-3" disabled>Eliminar</button>
+                <button class="btn btn-primary my-3" disabled>Cancelar</button>
+                <button class="btn btn-primary my-3">Salir</button>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="col-sm-12 text-right p-2 ">
+            <a href="/index.html" class="btn btn-primary">Volver</a>
+            <a href="" class="btn btn-light " >Siguiente</a>
+        </div>
+    </div>
+</body>
+</html>
